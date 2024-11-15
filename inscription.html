@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscrivez-vous</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Rejoignez-nous et profitez de nos avantages</h1>
+    <nav>
+      <a href="accueil.html">Accueil</a>
+      <a href="karate.html">karate</a>
+      <a href="box.html">box</a>
+      <a href="inscription.html">inscription</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-container">
+      <h2>Adhérez Dès Maintenant</h2>
+      <form id="signup-form">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="confirm-password">Confirmez le mot de passe</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <button type="submit">S'inscrire</button>
+        <p id="error-message"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 Salle de Sport</p>
+  </footer>
+</body>
+</html>
